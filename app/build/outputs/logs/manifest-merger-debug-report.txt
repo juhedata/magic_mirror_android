@@ -1,0 +1,132 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-38:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/39cc12500cf3dc6d7ee0cfe755b450b7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/roundedimageview-2.3.0.aar/90e16a10fd24dba88f87ae679262d98b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/8667b60d9a8eeb2c7972599f440cff40/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/fe4073178ed3eb3f54340eab8529642a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f6d39e608c94324b9f9760dcc9d8bcbc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/386974265daae60c09f49d772c7a0cab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/7b939161bdf9a5dd109360c6951978b3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/28473135ae0818b1b44228a59c2e6aec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e94a295160cd6956257ba26486d5f536/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/99925764c4b5fb0165885f33b6c63615/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/83d7293a92bc14f0672281630c1e5361/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c0c01f195277473b8aef3ffdcf8db178/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/18c949ec55a0a9e1a4e9e29dcab228b5/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:3:7-30
+		INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:5:7-32
+		INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:4:7-30
+		INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAPTURE_AUDIO_OUTPUT
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:9:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:13:22-65
+application
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:20:5-34:19
+	android:label
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:20:48-80
+	android:icon
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:20:18-47
+	android:theme
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:21:9-59
+	android:name
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:22:9-40
+activity#com.test.demo.DemoActivity
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:23:9-31:20
+	android:screenOrientation
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:25:13-50
+	android:label
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:24:19-51
+	android:name
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:23:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:29:27-74
+activity#com.test.demo.TestActivity
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:32:9-33:20
+	android:name
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:32:19-47
+uses-sdk
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/39cc12500cf3dc6d7ee0cfe755b450b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/39cc12500cf3dc6d7ee0cfe755b450b7/AndroidManifest.xml:20:5-44
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/roundedimageview-2.3.0.aar/90e16a10fd24dba88f87ae679262d98b/AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/roundedimageview-2.3.0.aar/90e16a10fd24dba88f87ae679262d98b/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/8667b60d9a8eeb2c7972599f440cff40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/8667b60d9a8eeb2c7972599f440cff40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/fe4073178ed3eb3f54340eab8529642a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/fe4073178ed3eb3f54340eab8529642a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f6d39e608c94324b9f9760dcc9d8bcbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f6d39e608c94324b9f9760dcc9d8bcbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/386974265daae60c09f49d772c7a0cab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/386974265daae60c09f49d772c7a0cab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/7b939161bdf9a5dd109360c6951978b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/7b939161bdf9a5dd109360c6951978b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/28473135ae0818b1b44228a59c2e6aec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/28473135ae0818b1b44228a59c2e6aec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e94a295160cd6956257ba26486d5f536/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e94a295160cd6956257ba26486d5f536/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/99925764c4b5fb0165885f33b6c63615/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/99925764c4b5fb0165885f33b6c63615/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/83d7293a92bc14f0672281630c1e5361/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/83d7293a92bc14f0672281630c1e5361/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c0c01f195277473b8aef3ffdcf8db178/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c0c01f195277473b8aef3ffdcf8db178/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/18c949ec55a0a9e1a4e9e29dcab228b5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/18c949ec55a0a9e1a4e9e29dcab228b5/AndroidManifest.xml:20:5-44
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/m_root_ll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_bac"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:paddingLeft="21dp"
+    android:paddingTop="25dp"
+    android:paddingRight="21dp"
+    android:paddingBottom="31dp">
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="160dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/m_top_iv"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            app:riv_oval="true" />
+        <TextView
+            android:id="@+id/m_no_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/shape_txt"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingRight="6dp"
+            android:paddingLeft="6dp"
+            android:text="NO.0150"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            />
+
+    </FrameLayout>
+    <TextView
+        android:id="@+id/m_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333333"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:text="张 静"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/m_position_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="市场部专员"
+        android:textColor="#ff666666"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:lineSpacingExtra="3dp"
+        android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>
