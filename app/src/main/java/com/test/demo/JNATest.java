@@ -33,6 +33,7 @@ import okhttp3.RequestBody;
 
 public class JNATest {
 
+
     private static final String TAG = "JNATest";
     static JNATest jnaTest = new JNATest();
     public int m_lAlarmID = -1;
@@ -148,7 +149,7 @@ public class JNATest {
                         // if (FileSizeUtil.getFileOrFilesSize(file.getPath(), FileSizeUtil.SIZETYPE_KB) < 300) {
                         byte[] buf = readFile(file);
                         String base64Img = new String(android.util.Base64.encode(buf, Base64.NO_WRAP));
-                        monitor(base64Img, file);
+                       // monitor(base64Img, file);
 //                        } else {
 //                            file.delete();
 //                        }
@@ -221,27 +222,27 @@ public class JNATest {
                 pFaceSnapInfo.write(0, pAlarmInfo.getByteArray(0, strFaceSnapInfo.size()), 0, strFaceSnapInfo.size());
                 strFaceSnapInfo.read();
                 System.out.println("COMM_UPLOAD_FACESNAP_RESULT dwFacePicID:" + strFaceSnapInfo.dwFacePicID + "FaceScore:" + strFaceSnapInfo.dwFaceScore);
-                FileOutputStream small = null;
-                FileOutputStream big = null;
-                String path="/mnt/sdcard/vgmap/"+System.currentTimeMillis()+".jpg";
-                try {
-                    small = new FileOutputStream(path);
-                    //   big = new FileOutputStream("/mnt/sdcard/sdklog/big.jpg");
-                } catch (FileNotFoundException e) {
-                    e.printStackTrace();
-                }
-                if (strFaceSnapInfo.dwFacePicLen > 0) {
-                    try {
-                        small.write(strFaceSnapInfo.pBuffer1.getByteArray(0, strFaceSnapInfo.dwFacePicLen), 0, strFaceSnapInfo.dwFacePicLen);
-                        small.close();
-                        File file = new File(path);
-                        byte[] buf = readFile(file);
-                        String base64Img = new String(android.util.Base64.encode(buf, Base64.NO_WRAP));
-                        monitor(base64Img, file);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                }
+                String base64Img = new String(android.util.Base64.encode(strFaceSnapInfo.pBuffer1.getByteArray(0, strFaceSnapInfo.dwFacePicLen), Base64.NO_WRAP));
+                monitor(base64Img);
+//                String path="/mnt/sdcard/vgmap/"+System.currentTimeMillis()+".jpg";
+//                try {
+//                    small = new FileOutputStream(path);
+//                    //   big = new FileOutputStream("/mnt/sdcard/sdklog/big.jpg");
+//                } catch (FileNotFoundException e) {
+//                    e.printStackTrace();
+//                }
+//                if (strFaceSnapInfo.dwFacePicLen > 0) {
+//                    try {
+//                        small.write(strFaceSnapInfo.pBuffer1.getByteArray(0, strFaceSnapInfo.dwFacePicLen), 0, strFaceSnapInfo.dwFacePicLen);
+//                        small.close();
+//                        File file = new File(path);
+//                        byte[] buf = readFile(file);
+//                        String base64Img = new String(android.util.Base64.encode(strFaceSnapInfo.pBuffer1.getByteArray(0, strFaceSnapInfo.dwFacePicLen), Base64.NO_WRAP));
+//                        monitor(base64Img, file);
+//                    } catch (IOException e) {
+//                        e.printStackTrace();
+//                    }
+//                }
 
 //                if (strFaceSnapInfo.dwFacePicLen > 0) {
 //                    try {
@@ -2032,7 +2033,46 @@ public class JNATest {
         });
 
     }
+    private void monitor(String base64) {
+        Map<String, String> map = new HashMap<>();
+        map.put("image", base64);
+        map.put("action", 0 + "");
+        Log.e(TAG, "monitor");
 
+        final RequestBody requestBody = RequestBody.create(MediaType.parse("Content-Type, application/json"),
+                new Gson().toJson(map));
+        RequestManager.mRetrofitManager
+                .createRequest(RetrofitRequestInterface.class)
+                .monitor(requestBody).enqueue(new RetrofitCYCallBack() {
+            @Override
+            public void onSuccess(String response) {
+                Log.e(TAG, response);
+                ResultBean resultBean = new Gson().fromJson(response, ResultBean.class);
+                if (resultBean.getCode() == 200) {
+                    if (resultBean.getData().size() > 0) {
+                        Log.e(TAG, response);
+                        if (!mDemoActivity.mIdList.contains(resultBean.getData().get(0).getId() + "")) {
+                            mDemoActivity.mList.add(resultBean.getData().get(0));
+                            mDemoActivity.mIdList.add(resultBean.getData().get(0).getId() + "");
+                            if (mDemoActivity.mTimer != null) {
+                                mDemoActivity.mTimer.cancel();
+                            }
+                            mDemoActivity.showRecyclerView();
+                        }
+                    }
+                }
+                //  shouldUpload = true;
+            }
+
+            @Override
+            public void onError(Throwable t) {
+                Log.e(TAG, t.getMessage());
+                // shouldUpload = false;
+
+            }
+        });
+
+    }
 }
 
 
