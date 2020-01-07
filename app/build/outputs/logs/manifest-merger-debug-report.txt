@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-38:12
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-36:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/39cc12500cf3dc6d7ee0cfe755b450b7/AndroidManifest.xml:17:1-22:12
 MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/roundedimageview-2.3.0.aar/90e16a10fd24dba88f87ae679262d98b/AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/8667b60d9a8eeb2c7972599f440cff40/AndroidManifest.xml:17:1-22:12
@@ -17,37 +17,37 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/alex/.gradle/cac
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/83d7293a92bc14f0672281630c1e5361/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c0c01f195277473b8aef3ffdcf8db178/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/alex/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/18c949ec55a0a9e1a4e9e29dcab228b5/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:1-36:12
 	package
-		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:3:7-30
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:3:5-28
 		INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:5:7-32
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:5:5-30
 		INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:4:7-30
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:4:5-28
 		INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.CAPTURE_AUDIO_OUTPUT
-ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:8:5-78
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:8:5-79
 	android:name
 		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:8:22-76
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:9:5-70
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:9:5-71
 	android:name
 		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:9:22-68
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:10:5-79
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:10:5-80
 	android:name
 		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:10:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:11:5-80
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:11:5-81
 	android:name
 		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:11:22-78
 uses-permission#android.permission.INTERNET
@@ -55,27 +55,27 @@ ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:12:5-67
 	android:name
 		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:12:22-64
 uses-permission#android.permission.READ_LOGS
-ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:13:5-67
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:13:5-68
 	android:name
 		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:13:22-65
 application
-ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:20:5-34:19
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:18:5-33:19
 	android:label
-		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:20:48-80
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:21:9-41
 	android:icon
-		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:20:18-47
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:20:9-38
 	android:theme
-		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:21:9-59
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:22:9-59
 	android:name
-		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:22:9-40
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:19:9-40
 activity#com.test.demo.DemoActivity
 ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:23:9-31:20
 	android:screenOrientation
-		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:25:13-50
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:26:13-50
 	android:label
-		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:24:19-51
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:25:13-45
 	android:name
-		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:23:19-47
+		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:24:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
@@ -87,7 +87,7 @@ ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:29:17-77
 	android:name
 		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:29:27-74
 activity#com.test.demo.TestActivity
-ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:32:9-33:20
+ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:32:9-59
 	android:name
 		ADDED from /Users/alex/view/asss/app/src/main/AndroidManifest.xml:32:19-47
 uses-sdk

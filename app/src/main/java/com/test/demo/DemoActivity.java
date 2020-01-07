@@ -311,7 +311,7 @@ public class DemoActivity extends AppCompatActivity implements Callback {
             Log.e(TAG, "HCNetSDK init is failed!");
             return false;
         }
-        // HCNetSDK.getInstance().NET_DVR_SetLogToFile(3, "/mnt/sdcard/sdklog/", true);
+        HCNetSDK.getInstance().NET_DVR_SetLogToFile(3, "/mnt/sdcard/sdklog/", false);
         return true;
     }
 
