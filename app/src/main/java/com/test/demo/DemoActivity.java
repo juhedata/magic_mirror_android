@@ -321,6 +321,7 @@ public class DemoActivity extends AppCompatActivity implements Callback {
         m_osurfaceView.getHolder().addCallback(this);
         setListeners();
         return true;
+        
     }
 
     private void ChangeSingleSurFace(boolean bSingle) {
